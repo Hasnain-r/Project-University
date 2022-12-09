@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universtiy Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <style>
+        #banner
+{
+    background-image: linear-gradient(rgba(4,9,0,0.1),#000000),url(images/banner\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}   
+
+
+.text-box h1
+{
+    font-size: 48px;
+    font-family: Arial;
+    margin-top: -10%;
+    text-align: center;
+}
+
+
+.row
+{
+ justify-content: space-evenly;
+ gap: 30px;
+}
+
+.column
+{
+    padding-top: 80px;
+}
+
+.column h4{
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-variant: small-caps;
+    transition: 0.5s;
+}
+
+.column h4:hover{
+   
+   transform: translateY(-10px);
+   transition: 1s;
+   
+}
+.column p
+{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.portfolio{
+    
+    display: inline;
+    text-decoration: none;
+    border: 1px solid #f44336;
+    padding: 12px 50px;
+    font-size: 15px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #f44336;
+    margin-left: 3px;
+    margin-top: 30px;
+   
+}
+
+.portfolio:hover{
+    
+    border: 1px solid #f44336;
+    color: #fff;
+    background: #f44336;
+    transition: 1s;
+}
+
+
+.column2 img
+{
+    height: 450px;
+    width: 450px;
+    border: 1px solid #E6E6E6;
+    transition: 0.5s;
+}
+
+.column2 img:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    
+}
+    </style>
+</head>
+<body>
+       <section id="banner">
+            <nav>
+               <div class="nav-links">
+                   <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Course.html">COUSRE</a></li>
+                    <li><a href="blog.html" >BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+           </nav>
+<div class="text-box">
+    <h1>Blog</h1>
+</div>
+       </section>
+     <div class="row">
+        <div class="column">
+           <h4>Hasnane Rafiq</h4>
+           <p>Lorem Ipsum has been the industry's standard dummy text ever<br> since the 1500s when an unknown printer took a galley of type <br>and scrambled it to make a type specimen book. It has survived <br>not only five centuries, but also the leap into electronic typesetting,<br> remaining essentially unchanged. It was popularised in the 1960s<br> with the release of Letraset sheets containing<br>Lorem Ipsum passages</p>
+        <a href="https://mycvcreator.com/site/Hasnain" class="portfolio">Porfolio</a>        
+        </div>
+        <div class="column2">
+            <img src="images/hasnainimg.jpeg" alt="">
+        </div>
+      </div>
+
+    
+<!-- facilities -->
+
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>hello world hope you'll be fine and happy , lorem ipsum dolor sit te. </p>
+        <div class="row">
+            <div class="facilities-col">
+                  <img src="images/library.jpg" >
+                  <h3>World Class Library</h3>
+                  <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            </div>
+        <div class="facilities-col">
+            <img src="images/ground 2.jpg" >
+            <h3>Largest Play Ground</h3>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, .</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.jpg">
+        <h3>Tasty and Healthy</h3>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+  </div>
+</div>
+     </section>
+
+
+<!----- footer ----->
+ <section  class="footer">
+     <h4>About Us</h4>
+     <p></p>
+     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>scrambled it to make a type specimen book.</p>
+   <div class="icon">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-whatsapp"></i>
+  <i class="fa fa-linkedin"></i>
+  
+<p>Made with <i class="fa fa-heart-o"></i>Hasnain Rafiq</p>
+
+   </div>
+ </section>
+
+
+</body>
+</html>
